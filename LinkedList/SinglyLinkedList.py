@@ -34,6 +34,7 @@ class LL :
         while itr is not None :
             print(itr.data,end="->")
             itr = itr.next
+        print("END")
 
 # function to insert element at last
     def insertLast(self,value):
